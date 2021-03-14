@@ -1,4 +1,4 @@
-//can an & be followed by nothing?
+
 
 #include <errno.h>
 #include <fcntl.h>
@@ -99,7 +99,7 @@ char delims[128];
 split_string(writable,argsin,delims);
 
 
-    // TODO: Execute the command instead of printing it below
+    // Execute the command instead of printing it below
 int l = 0;
 int delimiter = 0;
 int exec_input = 0;
